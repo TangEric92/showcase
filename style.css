@@ -4,58 +4,72 @@ body {
 }
 
 header {
+  padding: 15px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: white;
-  height: 80px;
+  color: #1e1e1e;
 }
 .logo {
-  display: flex;
-
-  margin-left: 50px;
-  margin-top: 15px;
-  margin-bottom: 15px;
   font-family: Space Mono;
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
   line-height: 50px;
   text-transform: uppercase;
-  color: #1e1e1e;
 }
 nav ul {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 80px;
 }
 nav li {
-  margin-right: 1.2em;
+  margin-right: 1em;
+  padding: 5px;
 }
 
 .hero {
-  height: 759px;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-repeat: no-repeat;
   background-image: linear-gradient(
       180deg,
       rgba(250, 110, 35, 0.5) 0%,
       rgba(255, 200, 50, 0.5) 20%
     ),
     url("images/photo-1454165804606-c3d57bc86b40.jpeg");
+  background-size: cover;
 }
+
 h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: white;
   font-family: DM Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 100px;
   line-height: 120%;
-
-  height: 759px;
 }
 
-li {
-  padding: 5px;
+.promotion {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-color: yellow;
+}
+.promotion p {
+  display: flex;
+  align-items: center;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.dark {
+  background-color: black;
+  color: white;
 }
