@@ -1,0 +1,49 @@
+.collection {
+  height: 60vh;
+  display: flex;
+  align-content: stretch;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+.section-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 55px;
+}
+.section-top h3 {
+  padding: 10px 40px;
+  background-color: orange;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 44px;
+  transform: rotate(-5deg);
+  border-radius: 15%;
+}
+.section-top a {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+}
+.collection-item {
+  width: 420px;
+  height: 590px;
+}
+
+.collection-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.collection-info h3 {
+  font-size: 30px;
+}
+.collection-info a {
+  font-size: 14px;
+}
