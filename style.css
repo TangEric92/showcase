@@ -32,20 +32,23 @@ a {
 }
 
 header {
-  padding: 15px;
   display: flex;
   align-items: center;
+  padding: 15px;
   justify-content: space-between;
-  background-color: white;
-  color: #1e1e1e;
+  background-color: var(--grey);
+  font-family: "Space Mono", monospace;
+}
+header h1 {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .logo {
-  font-family: Space Mono;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 34px;
-  line-height: 50px;
-  text-transform: uppercase;
+  display: flex;
+}
+nav {
+  display: flex;
 }
 nav ul {
   display: flex;
@@ -55,6 +58,23 @@ nav li {
   padding: 5px;
 }
 
+.cart-item {
+  position: relative;
+}
+.cart-item span {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+  background-color: var(--yellow);
+  font-size: 14px;
+  border-radius: 50%;
+}
 .hero {
   height: 80vh;
   display: flex;
@@ -71,7 +91,7 @@ nav li {
   background-size: cover;
 }
 
-h1 {
+h2 {
   color: white;
   font-family: DM Sans;
   font-style: normal;
