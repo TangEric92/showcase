@@ -26,10 +26,12 @@
 
   /* Transition in transform*/
   transition: transform 0.25s ease;
+  transition: background-color 0.25s ease-in;
 }
 /* Hover : Au survol */
 .section-top-bar h3:hover {
   transform: rotate(0);
+  background-color: red;
 }
 .collection-items {
   display: flex;
