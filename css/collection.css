@@ -14,5 +14,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 45px 55px;
+  padding: 50px;
+}
+.section-top-bar h3 {
+  background-color: orange;
+  border-radius: 4px;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px 30px;
+  transform: rotate(-5deg);
+
+  /* Transition in transform*/
+  transition: transform 0.25s ease;
+}
+/* Hover : Au survol */
+.section-top-bar h3:hover {
+  transform: rotate(0);
+}
+.collection-items {
+  display: flex;
 }
