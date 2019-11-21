@@ -102,23 +102,6 @@ nav li {
   line-height: 120%;
 }
 
-.promotion {
-  display: flex;
-  justify-content: center;
-  height: 50px;
-  background-color: yellow;
-}
-.promotion p {
-  display: flex;
-  align-items: center;
-
-  font-family: "Space Mono";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-}
-
 .dark {
   background-color: black;
   color: white;
