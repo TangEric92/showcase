@@ -1,0 +1,12 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.newsletter span,
+form {
+  padding: 20px;
+}

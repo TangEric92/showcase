@@ -1,0 +1,12 @@
+.footer {
+  background-color: orange;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer .social-icon i {
+  padding-right: 15px;
+}
