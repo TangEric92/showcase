@@ -103,6 +103,23 @@ nav li {
 }
 
 .dark {
-  background-color: black;
-  color: white;
+  background-color: black !important;
+  color: white !important;
+}
+
+.nav-mobile,
+.menu-mobile {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  header .nav-desktop {
+    display: none;
+  }
+  header .nav-mobile {
+    display: block;
+  }
+  .open {
+    display: block;
+  }
 }
