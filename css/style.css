@@ -135,4 +135,47 @@ nav li {
   header {
     position: relative;
   }
+  .hero {
+    height: 40vh;
+  }
+  .hero h2 {
+    font-size: 60px;
+    margin: 1.2em;
+  }
+
+  .section-top-bar a {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  p,
+  span {
+    font-size: 15px;
+  }
+  .hero {
+    height: 30vh;
+  }
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  .section-top-bar a p {
+    display: none !important;
+  }
+
+  .collection-items {
+    width: 400px !important;
+    padding: 10px;
+  }
+
+  .collection-item img {
+    width: 250px !important;
+  }
 }

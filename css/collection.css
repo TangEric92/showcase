@@ -40,6 +40,11 @@
   display: flex;
   align-items: center;
 }
+
+.section-top-bar a p {
+  display: flex;
+  align-items: center;
+}
 .section-top-bar i {
   margin-left: 20px;
 }
