@@ -32,6 +32,7 @@ a {
 }
 
 header {
+  position: relative;
   display: flex;
   align-items: center;
   padding: 15px;
@@ -119,7 +120,19 @@ nav li {
   header .nav-mobile {
     display: block;
   }
-  .open {
-    display: block;
+  .open .menu-mobile {
+    position: absolute;
+    left: 0px;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .open .menu-mobile li {
+    width: 100vw;
+    background-color: grey;
+    border: black solid 1px;
+  }
+  header {
+    position: relative;
   }
 }

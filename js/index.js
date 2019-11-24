@@ -17,3 +17,9 @@ changeTheme.addEventListener("click", () => {
   box.classList.toggle("dark");
   footer.classList.toggle("dark");
 });
+
+const navMobile = document.querySelector(".nav-mobile");
+const menuMobile = document.querySelector(".menu-mobile");
+navMobile.addEventListener("click", () => {
+  header.classList.toggle("open");
+});
