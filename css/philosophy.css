@@ -9,20 +9,35 @@
     url("../images/photo-1454165804606-c3d57bc86b40.jpeg");
 
   background-size: cover;
-  height: 60vh;
+  height: 120vh;
   padding: 50px;
 }
 .philosophy .box {
   background-color: #fff;
-  width: 50em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #fff;
+  width: 800px;
+  padding: 80px;
 }
 
 .box h3,
-p,
-button {
+p {
   padding: 20px;
+}
+.box button {
+  padding: 5px;
+  background: transparent;
+  cursor: pointer;
+  border: 0;
 }
 
 .read-more {
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  font-weight: 700;
   text-transform: uppercase;
+  border-bottom: 3px solid orange;
 }
