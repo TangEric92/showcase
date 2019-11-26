@@ -47,7 +47,11 @@ header h1 {
 }
 .logo {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
 }
+
 nav {
   display: flex;
 }
@@ -103,9 +107,12 @@ nav li {
   line-height: 120%;
 }
 
+.dark .cart-item span {
+  color: black;
+}
 .dark {
   background-color: black !important;
-  color: white !important;
+  color: white;
 }
 
 .nav-mobile,
