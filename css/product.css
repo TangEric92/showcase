@@ -4,14 +4,17 @@
 }
 .product-badge {
   position: absolute;
-  top: 0px;
-  right: 0;
+  top: -100px;
+  right: 20px;
 
   height: 200px;
   width: 200px;
   background-color: orange;
   border-radius: 50%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .product-items {
