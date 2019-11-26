@@ -10,3 +10,17 @@
 form {
   padding: 20px;
 }
+
+.newsletter form {
+  display: flex;
+}
+
+form input {
+  padding: 10px 20px;
+}
+.newsletter button {
+  padding: 15px 40px;
+  border-radius: 1px;
+  border: solid 1px;
+  background-color: white;
+}

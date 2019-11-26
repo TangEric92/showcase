@@ -26,6 +26,7 @@
   position: relative;
   margin: 25px;
   width: 600px;
+  overflow: hidden;
 }
 .product-item .product-info {
   background-color: grey;
@@ -36,6 +37,15 @@
   justify-content: space-between;
 }
 
+.product-item img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.25s ease;
+}
+.product-item img:hover {
+  transform: scale(1.1);
+}
+
 .browse-all {
   padding: 30px 0 30px 0;
   display: flex;
@@ -43,5 +53,8 @@
 }
 
 .browse-all button {
-  padding: 10px;
+  padding: 15px 30px;
+  border-radius: 4px;
+
+  background-color: white;
 }
