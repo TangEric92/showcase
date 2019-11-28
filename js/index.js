@@ -1,5 +1,3 @@
-console.log("it works");
-
 const changeTheme = document.querySelector(".change-theme");
 
 const header = document.querySelector("header");
@@ -13,7 +11,6 @@ changeTheme.addEventListener("click", () => {
   theme.classList.toggle("dark");
   header.classList.toggle("dark");
   label.classList.toggle("dark");
-
   box.classList.toggle("dark");
   footer.classList.toggle("dark");
 });
