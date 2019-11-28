@@ -190,3 +190,13 @@ nav li {
     width: 250px !important;
   }
 }
+
+.progress-bar {
+  position: fixed;
+  width: 0px;
+  height: 10px;
+  top: 0px;
+  left: 0px;
+  background-color: orange;
+  z-index: 50;
+}
