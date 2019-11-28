@@ -15,12 +15,20 @@ form {
   display: flex;
 }
 
-form input {
-  padding: 10px 20px;
+.newsletter input::placeholder {
+  color: black;
+  opacity: 1;
 }
+
 .newsletter button {
-  padding: 15px 40px;
-  border-radius: 1px;
-  border: solid 1px;
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+.newsletter button,
+.newsletter input {
+  border: solid 2px;
+  border-radius: 0;
+  padding: 20px 30px;
   background-color: white;
 }
