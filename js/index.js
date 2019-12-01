@@ -6,7 +6,7 @@ const box = document.querySelector(".box");
 const footer = document.querySelector(".footer");
 const label = document.querySelectorAll(".label");
 const badge = document.querySelector(".product-badge");
-
+const hero = document.querySelector(".hero");
 const progress = document.querySelector(".progress-bar");
 const body = document.querySelector("body");
 
@@ -17,6 +17,7 @@ changeTheme.addEventListener("click", () => {
     label.classList.toggle("dark");
   });
 
+  hero.classList.toggle("dark");
   badge.classList.toggle("dark");
   theme.classList.toggle("dark");
   header.classList.toggle("dark");
