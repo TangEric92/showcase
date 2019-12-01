@@ -4,16 +4,22 @@ const header = document.querySelector("header");
 const theme = document.querySelector(".shipping-bar");
 const box = document.querySelector(".box");
 const footer = document.querySelector(".footer");
-const label = document.querySelector(".label");
+const label = document.querySelectorAll(".label");
+const badge = document.querySelector(".product-badge");
 
 const progress = document.querySelector(".progress-bar");
 const body = document.querySelector("body");
 
 // add class change on h1 click
 changeTheme.addEventListener("click", () => {
+  [].forEach.call(label, function(label) {
+    // do whatever
+    label.classList.toggle("dark");
+  });
+
+  badge.classList.toggle("dark");
   theme.classList.toggle("dark");
   header.classList.toggle("dark");
-  label.classList.toggle("dark");
   box.classList.toggle("dark");
   footer.classList.toggle("dark");
 });

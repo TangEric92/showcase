@@ -27,7 +27,6 @@ body {
   font-family: "DM Sans", Arial, Helvetica, sans-serif;
   font-size: 24px;
   line-height: 1.5;
-  color: var(--black);
 }
 
 a {
@@ -41,13 +40,14 @@ header {
   align-items: center;
   padding: 15px;
   justify-content: space-between;
-  background-color: var(--grey);
+  background-color: var(--white);
   font-family: "Space Mono", monospace;
 }
 header h1 {
   font-size: 34px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-right: 20px;
 }
 .logo {
   display: flex;
@@ -119,6 +119,9 @@ nav li {
   color: white;
 }
 
+.dark .menu a {
+  color: white;
+}
 .nav-mobile,
 .menu-mobile {
   display: none;
